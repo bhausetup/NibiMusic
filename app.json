@@ -1,9 +1,9 @@
 {
-    "name": "ɴɪʙɪ ✘ ᴍᴜsɪᴄ",
-    "logo": "https://te.legra.ph/file/086426b04c04a3c16f558.jpg",
+    "name": "ᴘɪʏᴀ ✘ ᴍᴜsɪᴄ",
+    "logo": "https://graph.org/file/4e9e2c6c98fbb0b1e5ee9.jpg",
     "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴛʜᴇ ʙᴏᴛ ʜᴜʙ.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/NirjonX69/NibiMusic",
+    "repository": "https://github.com/bhausetup/piyaMusic",
     "stack": "container",
     "env": {
         "BOT_USERNAME": {
