@@ -5,14 +5,14 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
-NIBI_IMG = (
-"https://te.legra.ph/file/1b82afbf90d074849136e.jpg",
-"https://te.legra.ph/file/0f64be1cf523f76aa0e2e.jpg",
-"https://te.legra.ph/file/1bedd3d90170cc6da5282.jpg",
-"https://te.legra.ph/file/c18b4ff72e93a1def1eef.jpg",
-"https://te.legra.ph/file/43b1aff6ba286cd61b4cc.jpg",
-"https://te.legra.ph/file/45f301147ffede1856f0d.jpg",
-"https://te.legra.ph/file/40f551a935da47f59ff64.jpg",
+PIYA_IMG = (
+"https://telegra.ph/file/0c42c9de2c368b5f691ec.jpg",
+"https://telegra.ph/file/b94d7b607054eb0993b93.jpg",
+"https://telegra.ph/file/b3a574c42856ad52b0cda.jpg",
+"https://telegra.ph/file/af86d5810fbfe32552c7d.jpg",
+"https://telegra.ph/file/72fc4ed0b02894736b3b7.jpg",
+"https://telegra.ph/file/8c378ce31064792bc8ed8.jpg",
+"https://telegra.ph/file/b178b6057234ceaf8e7fb.jpg",
 
 )
 
@@ -36,7 +36,7 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("🔞 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔞", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
             InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/{SUPPORT_GROUP}"),
@@ -55,13 +55,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(filters.command(["repo", "source"]))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/56557bd94afbe895ae483.jpg",
+        photo=f"https://telegra.ph/file/0c42c9de2c368b5f691ec.jpg",
         caption=f"""ʜᴇʀᴇ ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ғᴏʀᴋ ᴀɴᴅ ɢɪᴠᴇ sᴛᴀʀs ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/NirjonX69/NibiMusic"
+                        " ʀᴇᴘᴏ 🥺", url=f"https://github.com/bhausetup/piyamusic"
                     )
                 ]
             ]
